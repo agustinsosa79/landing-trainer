@@ -1,4 +1,4 @@
-import { FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
 
 /**
  * Footer llamativo, pro y responsive
@@ -19,8 +19,9 @@ type FooterProps = {
 const Footer = ({ scrollTo, refs }: FooterProps) => {
   const YEAR = new Date().getFullYear();
   
-  const instagramUrl = "https://www.instagram.com/tu_handle";
-  const tiktokUrl = "https://www.tiktok.com/@tu_handle";
+  const instagramUrl = "https://www.instagram.com/nazarenosalerno22?igsh=czNrY2RhcHlxZ2ly";
+  const tiktokUrl = "https://www.tiktok.com/@nazafit22?_r=1&_t=ZM-91VvGnbiGqG";
+  const youtubeUrl = "https://youtube.com/@naza22arg?si=P4jLHSbsyfzSpkam";
 
   return (
     <footer className="relative bg-black text-zinc-100 overflow-hidden">
@@ -84,6 +85,9 @@ const Footer = ({ scrollTo, refs }: FooterProps) => {
                 aria-label="TikTok"
               >
                 <FaTiktok className="w-5 h-5 text-black" />
+              </a>
+              <a href={youtubeUrl} className="w-12 h-12 flex items-center justify-center rounded-full bg-amber-700 text-black hover:scale-105  transition shadow-md">
+                <FaYoutube className="w-5 h-5 text-black" />
               </a>
 
             </div>

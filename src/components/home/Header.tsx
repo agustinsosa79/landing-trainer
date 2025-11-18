@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { ClipboardCheck, Dumbbell, Home, Menu, Phone, User, X } from "lucide-react";
 import hero_img from '../../assets/Hero.png';
-import { FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
 
 type HeaderProps = {
   scrollTo: (ref: React.RefObject<HTMLDivElement | null>) => void;
@@ -28,6 +28,12 @@ const Header = ({scrollTo, refs}: HeaderProps) => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+
+
+  const instagramUrl = "https://www.instagram.com/nazarenosalerno22?igsh=czNrY2RhcHlxZ2ly";
+  const tiktokUrl = "https://www.tiktok.com/@nazafit22?_r=1&_t=ZM-91VvGnbiGqG";
+  const youtubeUrl = "https://youtube.com/@naza22arg?si=P4jLHSbsyfzSpkam";
 
   return (
     <>
@@ -133,7 +139,7 @@ const Header = ({scrollTo, refs}: HeaderProps) => {
     {/* Socials pequeños */}
     <div className="mt-5 flex items-center justify-center gap-4">
   <a
-    href="https://instagram.com/"
+    href={instagramUrl}
     target="_blank"
     className="w-9 h-9 rounded-full bg-amber-700 flex items-center justify-center text-black shadow"
   >
@@ -141,11 +147,14 @@ const Header = ({scrollTo, refs}: HeaderProps) => {
   </a>
 
   <a
-    href="https://tiktok.com/"
+    href={tiktokUrl}
     target="_blank"
     className="w-9 h-9 rounded-full bg-amber-700 flex items-center justify-center text-black shadow"
   >
     <FaTiktok size={18} />
+  </a>
+  <a href={youtubeUrl} target="_blank" className="w-9 h-9 rounded-full bg-amber-700 flex items-center justify-center text-black shadow">
+    <FaYoutube size={18} />
   </a>
 </div>
   </nav>
