@@ -3,8 +3,7 @@ import { Award } from "lucide-react";
 import certificado_1 from '../../assets/certificado_1.png'
 import certificado_2 from '../../assets/certificado_2.png'
 
-import foto_1 from '../../assets/foto_1.jpeg'
-import foto_2 from '../../assets/foto_2.jpeg'
+import foto_1 from '../../assets/foto_1.png'
 
 const Me = () => {
   const [previewSrc, setPreviewSrc] = useState<string | null>(null);
@@ -106,28 +105,16 @@ const Me = () => {
 
         {/* === FOTOS === */}
         <aside className="flex flex-col items-start gap-6">
-          <button
-            onClick={() => openPreview(foto_2)}
-            className="w-56 h-90 rounded-2xl overflow-hidden border border-white/6"
-          >
-            <img
-              src={foto_2}
-              alt="Nazareno entrenando"
-              className="w-full h-full object-cover"
-              onError={(e) => {
-                e.currentTarget.src = "/img/placeholder-vertical-1.jpg";
-              }}
-            />
-          </button>
+          
 
           <button
             onClick={() => openPreview(foto_1)}
-            className="w-56 h-90 rounded-2xl overflow-hidden border border-white/6"
+            className="w-56 h-90 rounded-2xl bg-linear-to-br/longer from-zinc-900 via-black to-zinc-900 shadow-xl shadow-black  backdrop-blur-3xl overflow-hidden border border-white/6"
           >
             <img
               src={foto_1}
               alt="Nazareno instruyendo"
-              className="w-full h-full bottom-auto object-cover"
+              className="w-full h-full bottom-auto object-cover opacity-80"
               onError={(e) => {
                 e.currentTarget.src = "";
               }}
