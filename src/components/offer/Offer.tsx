@@ -9,12 +9,13 @@ type OfferProps = {
   scrollTo: (ref: React.RefObject<HTMLDivElement | null>) => void;
   refs: {
     contactoRef: React.RefObject<HTMLDivElement | null>;
+    serviciosRef?: React.RefObject<HTMLDivElement | null>;
   }
 }
 
 const Offer = ({ scrollTo, refs }: OfferProps) => {
   return (
-    <section className="relative py-20 px-6 md:px-12 bg-zinc-950">
+    <section  className="relative py-20 px-6 md:px-12 bg-zinc-950">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
 
         {/* === Columna principal (titulo + cards) */}
