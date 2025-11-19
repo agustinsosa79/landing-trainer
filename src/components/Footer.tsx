@@ -86,7 +86,7 @@ const Footer = ({ scrollTo, refs }: FooterProps) => {
               >
                 <FaTiktok className="w-5 h-5 text-black" />
               </a>
-              <a href={youtubeUrl} className="w-12 h-12 flex items-center justify-center rounded-full bg-amber-700 text-black hover:scale-105  transition shadow-md">
+              <a href={youtubeUrl} target="_blank" className="w-12 h-12 flex items-center justify-center rounded-full bg-amber-700 text-black hover:scale-105  transition shadow-md">
                 <FaYoutube className="w-5 h-5 text-black" />
               </a>
 
