@@ -27,25 +27,15 @@ const Me = () => {
           </h2>
 
           <p className="mt-4 text-zinc-300 md:text-base text-sm max-w-2xl leading-relaxed">
-  Entreno hace más de cuatro años y, aunque hoy el gimnasio es una parte clave de mi vida,
-  no siempre fue así. Arranqué como cualquiera: sin saber por dónde empezar, frustrándome,
-  probando rutinas que no me servían y sintiendo que no avanzaba. Pero algo adentro mío
-  me pedía cambiar, sentirme más fuerte y seguro conmigo mismo.
+  Aunque hoy el gimnasio es una parte clave de mi vida, no siempre fue así. Arranqué como cualquiera: sin saber por dónde empezar, frustrándome, probando rutinas que no me servían y sintiendo que no avanzaba. Pero algo adentro mío me pedía cambiar, sentirme más fuerte y seguro conmigo mismo.
   <br /><br />
-  Con el tiempo entendí que entrenar no es solo levantar peso: es disciplina, es aprender
-  a conocerte y es construir una versión tuya que te haga sentir orgulloso. Ahí fue cuando
-  decidí formarme en <strong>GualdaTraining</strong>, para dejar de entrenar “a ojo”
-  y empezar a entender realmente cómo funciona el cuerpo, el progreso y los procesos.
+  Con el tiempo entendí que entrenar no es solo levantar peso: es disciplina, es aprender a conocerte y es construir una versión tuya que te haga sentir orgulloso. Ahí fue cuando decidí empezar a formarme para dejar de entrenar “a ojo” y entender realmente cómo funciona el cuerpo, el progreso y los procesos.
   <br /><br />
-  Hoy uso ese conocimiento para ayudar a personas que están en el mismo lugar donde
-  yo estuve: con ganas de cambiar su realidad, pero sin saber por dónde arrancar o cómo
-  sostenerlo en el tiempo. Mi enfoque es simple: entrenar de forma inteligente, con un plan
-  que se adapte a tu nivel, a tu vida y a tus objetivos reales, sin mentiras ni promesas
-  imposibles.
+  Hoy uso ese conocimiento para ayudar a personas que están en el mismo lugar donde yo estuve: con ganas de cambiar su realidad, pero sin saber por dónde arrancar o cómo sostenerlo en el tiempo. Mi enfoque es simple: entrenar de forma inteligente, con un plan que se adapte a tu nivel, a tu vida y a tus objetivos reales, sin mentiras ni promesas imposibles.
   <br /><br />
-  Si estás buscando dar el primer paso o si querés volver a sentirte bien con vos mismo,
-  estoy acá para acompañarte en ese proceso.
+  Si estás buscando dar el primer paso o si querés volver a sentirte bien con vos mismo, estoy acá para acompañarte en ese proceso.
 </p>
+
 
           <div className="mt-6 space-y-4 max-w-2xl md:text-base text-sm text-zinc-300">
             <p>
